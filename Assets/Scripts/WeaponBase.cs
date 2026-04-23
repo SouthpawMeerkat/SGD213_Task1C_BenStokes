@@ -19,7 +19,7 @@ public abstract class WeaponBase : MonoBehaviour
 
     [Header("References")]
     [SerializeField]
-    protected Transform bulletSpawnPoint;
+    public Transform bulletSpawnPoint;
     public Transform BulletSpawnPoint
     {
         get { return bulletSpawnPoint; }
